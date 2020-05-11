@@ -1,0 +1,111 @@
+body{
+  font-size: 15px;
+  font-family: 'Poppins', sans-serif;
+}
+h1,h3{
+  color: hsl(234, 12%, 34%);
+}
+h2{
+  color: hsl(234, 12%, 34%);
+  padding: 8px 16px;
+  margin-bottom: 0;
+}
+p{
+  color: hsl(229, 6%, 66%);
+  line-height: 2;
+}
+.title{
+  margin: 70px auto 2px;
+  font-weight: 200;
+}
+.bold-title{
+  margin: 2px auto;
+}
+.par-main{
+  margin: 20px 20px 60px;
+}
+
+.top-container{
+  text-align: center;
+}
+
+.middle-container{
+  margin:30px;
+}
+
+.Supervisor{
+  height: 250px;
+  border-top: 5px inset hsl(180, 62%, 55%);
+  box-shadow: 0 4px 10px 4px rgba(0, 0, 0, 0.2);
+  position: relative;
+  border-radius: 4%;
+  margin-top: 40px;
+}
+.Team-Builder{
+  height: 250px;
+  border-top: 5px inset hsl(0, 78%, 62%);
+  border-radius: 4%;
+  box-shadow: 0 4px 10px 4px rgba(0, 0, 0, 0.2);
+  position: relative;
+  margin-top: 40px;
+}
+.Karma{
+  height: 250px;
+  border-top: 5px inset hsl(34, 97%, 64%);
+  border-radius: 4%;
+  box-shadow: 0 4px 10px 4px rgba(0, 0, 0, 0.2);
+  position: relative;
+  margin-top: 40px;
+}
+.Calculator{
+  height: 250px;
+  border-top: 5px inset hsl(212, 86%, 64%);
+  border-radius: 4%;
+  box-shadow: 0 4px 10px 4px rgba(0, 0, 0, 0.2);
+  position: relative;
+  margin-top: 40px;
+}
+.par-box{
+  margin: 0;
+  padding: 0 16px;
+}
+.icon{
+  position: absolute;
+  right: 32px;
+  bottom: 32px;
+}
+.attribution {
+  padding-top: 30px;
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  text-decoration: none;
+  color: blue;
+  color: hsl(228, 45%, 44%);
+}
+
+ @media (min-width:900px) {
+
+   .par-main{
+     width: 35%;
+     margin: 20px auto 60px;
+    }
+   .left {
+   margin: auto auto;
+   width:30%;
+   }
+   .middle{
+     margin: auto auto;
+     width:30%
+   }
+    .right{
+      margin: auto auto;
+      width:30%
+    }
+
+   .middle-container{
+     display: flex;
+   justify-content: space-between;
+   }
+ }
